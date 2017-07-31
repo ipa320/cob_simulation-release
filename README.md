@@ -1,3 +1,31 @@
+## cob_simulation (indigo) - 0.6.8-0
+
+The packages in the `cob_simulation` repository were released into the `indigo` distro by running `/usr/bin/bloom-release cob_simulation --track indigo --rosdistro indigo` on `Mon, 31 Jul 2017 14:47:58 -0000`
+
+These packages were released:
+- `cob_bringup_sim`
+- `cob_gazebo`
+- `cob_gazebo_objects`
+- `cob_gazebo_worlds`
+- `cob_simulation`
+
+Version of package(s) in repository `cob_simulation`:
+
+- upstream repository: https://github.com/ipa320/cob_simulation.git
+- release repository: https://github.com/ipa320/cob_simulation-release.git
+- rosdistro version: `0.6.7-0`
+- old version: `0.6.7-0`
+- new version: `0.6.8-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.26`
+- catkin_pkg version: `0.3.5`
+- rosdep version: `0.11.6`
+- rosdistro version: `0.6.2`
+- vcstools version: `0.1.39`
+
+
 ## cob_simulation (indigo) - 0.6.7-0
 
 The packages in the `cob_simulation` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --rosdistro indigo --track indigo cob_simulation` on `Mon, 24 Oct 2016 06:42:38 -0000`
