@@ -218,7 +218,7 @@ if __name__ == "__main__":
         # open file for urdf.xacro or urdf/sdf/model
         if model_type == "urdf.xacro":
             try:
-                f = os.popen("rosrun xacro xacro.py " + file_location)
+                f = os.popen("rosrun xacro xacro --inorder " + file_location)
             except:
                 rospy.logerr("No xacro file found for " + key + " at " + file_location)
                 continue
@@ -260,7 +260,10 @@ if __name__ == "__main__":
         req.model_xml = xml_string
         req.initial_pose = object_pose
 
-        res = srv_spawn_model(req)
+        try:
+            res = srv_spawn_model(req)
+        except rospy.service.ServiceException:
+            break
 
         # evaluate response
         if res.success == True:
