@@ -1,0 +1,12 @@
+Source: ros-indigo-cob-gazebo-worlds
+Section: misc
+Priority: extra
+Maintainer: Jannik Abbenseth <jba@ipa.fhg.de>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin, ros-indigo-cob-default-env-config, ros-indigo-roslaunch, ros-indigo-rostest
+Homepage: http://ros.org/wiki/cob_gazebo_worlds
+Standards-Version: 3.9.2
+
+Package: ros-indigo-cob-gazebo-worlds
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-cob-default-env-config, ros-indigo-controller-manager, ros-indigo-gazebo-msgs, ros-indigo-gazebo-ros, ros-indigo-gazebo-ros-control, ros-indigo-joint-state-controller, ros-indigo-joint-state-publisher, ros-indigo-position-controllers, ros-indigo-robot-state-publisher, ros-indigo-roslaunch, ros-indigo-rospy, ros-indigo-std-msgs, ros-indigo-tf, ros-indigo-velocity-controllers, ros-indigo-xacro
+Description: This package provides some worlds for gazebo simulation.
