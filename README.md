@@ -1,3 +1,31 @@
+## cob_simulation (kinetic) - 0.7.1-1
+
+The packages in the `cob_simulation` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release cob_simulation --rosdistro kinetic --edit` on `Wed, 07 Aug 2019 17:04:35 -0000`
+
+These packages were released:
+- `cob_bringup_sim`
+- `cob_gazebo`
+- `cob_gazebo_objects`
+- `cob_gazebo_worlds`
+- `cob_simulation`
+
+Version of package(s) in repository `cob_simulation`:
+
+- upstream repository: https://github.com/ipa320/cob_simulation.git
+- release repository: https://github.com/ipa320/cob_simulation-release.git
+- rosdistro version: `0.6.10-0`
+- old version: `0.7.0-1`
+- new version: `0.7.1-1`
+
+Versions of tools used:
+
+- bloom version: `0.8.0`
+- catkin_pkg version: `0.4.12`
+- rosdep version: `0.15.2`
+- rosdistro version: `0.7.4`
+- vcstools version: `0.1.40`
+
+
 ## cob_simulation (kinetic) - 0.7.0-1
 
 The packages in the `cob_simulation` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release cob_simulation --rosdistro kinetic --edit` on `Wed, 07 Aug 2019 11:45:19 -0000`
