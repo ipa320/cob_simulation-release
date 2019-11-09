@@ -1,0 +1,12 @@
+Source: ros-melodic-cob-gazebo-tools
+Section: misc
+Priority: optional
+Maintainer: Felix Messmer <felixmessmer@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin
+Homepage: http://ros.org/wiki/cob_gazebo_tools
+Standards-Version: 3.9.2
+
+Package: ros-melodic-cob-gazebo-tools
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python-numpy, ros-melodic-gazebo-msgs, ros-melodic-geometry-msgs, ros-melodic-roslib, ros-melodic-rospy, ros-melodic-tf
+Description: The cob_gazebo_tools package provides helper tools for the gazebo simulation
