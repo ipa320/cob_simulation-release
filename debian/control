@@ -1,0 +1,12 @@
+Source: ros-melodic-cob-gazebo-worlds
+Section: misc
+Priority: optional
+Maintainer: Jannik Abbenseth <jba@ipa.fhg.de>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-cob-default-env-config, ros-melodic-roslaunch, ros-melodic-rostest
+Homepage: http://ros.org/wiki/cob_gazebo_worlds
+Standards-Version: 3.9.2
+
+Package: ros-melodic-cob-gazebo-worlds
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-cob-default-env-config, ros-melodic-controller-manager, ros-melodic-gazebo-msgs, ros-melodic-gazebo-ros, ros-melodic-gazebo-ros-control, ros-melodic-joint-state-controller, ros-melodic-joint-state-publisher, ros-melodic-position-controllers, ros-melodic-robot-state-publisher, ros-melodic-roslaunch, ros-melodic-rospy, ros-melodic-std-msgs, ros-melodic-tf, ros-melodic-velocity-controllers, ros-melodic-xacro
+Description: This package provides some worlds for gazebo simulation.
