@@ -1,0 +1,12 @@
+Source: ros-kinetic-cob-gazebo-tools
+Section: misc
+Priority: optional
+Maintainer: Felix Messmer <felixmessmer@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: http://ros.org/wiki/cob_gazebo_tools
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-cob-gazebo-tools
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python-numpy, ros-kinetic-gazebo-msgs, ros-kinetic-geometry-msgs, ros-kinetic-roslib, ros-kinetic-rospy, ros-kinetic-tf
+Description: The cob_gazebo_tools package provides helper tools for the gazebo simulation
