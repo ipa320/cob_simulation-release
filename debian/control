@@ -1,0 +1,12 @@
+Source: ros-kinetic-cob-bringup-sim
+Section: misc
+Priority: optional
+Maintainer: Felix Messmer <felixmessmer@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-cob-default-env-config, ros-kinetic-cob-supported-robots, ros-kinetic-roslaunch
+Homepage: http://ros.org/wiki/cob_bringup_sim
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-cob-bringup-sim
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-cob-default-env-config, ros-kinetic-cob-default-robot-config, ros-kinetic-cob-gazebo, ros-kinetic-cob-gazebo-worlds, ros-kinetic-gazebo-ros
+Description: This package provides launch files for starting a simulated Care-O-bot.
