@@ -2,6 +2,9 @@
 Changelog for package cob_simulation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.7.4 (2020-03-18)
+------------------
+
 0.7.3 (2019-11-07)
 ------------------
 * Merge pull request `#172 <https://github.com/ipa320/cob_simulation/issues/172>`_ from fmessmer/cob_gazebo_tools
