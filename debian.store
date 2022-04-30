@@ -1,1 +1,1 @@
-{"trim": "", "base": "4ca4184", "trimbase": "", "parent": "debian/noetic/cob_gazebo_worlds", "previous": "4b1eb4f"}
+{"base": "4225dd0", "parent": "debian/noetic/cob_gazebo_worlds", "previous": "dec4750", "trim": "", "trimbase": ""}
