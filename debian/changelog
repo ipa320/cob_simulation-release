@@ -1,0 +1,143 @@
+ros-noetic-cob-simulation (0.7.5-2buster) buster; urgency=high
+
+  * Merge pull request #178 <https://github.com/ipa320/cob_simulation/issues/178> from fmessmer/test_noetic
+    test noetic
+  * Bump CMake version to avoid CMP0048 warning
+  * Contributors: Felix Messmer, fmessmer
+
+ -- Richard Bormann <richard.bormann@ipa.fraunhofer.de>  Tue, 01 Dec 2020 23:00:00 -0000
+
+ros-noetic-cob-simulation (0.7.4-2buster) buster; urgency=high
+
+
+
+ -- Richard Bormann <richard.bormann@ipa.fraunhofer.de>  Tue, 17 Mar 2020 23:00:00 -0000
+
+ros-noetic-cob-simulation (0.7.3-2buster) buster; urgency=high
+
+  * Merge pull request #172 <https://github.com/ipa320/cob_simulation/issues/172> from fmessmer/cob_gazebo_tools
+    new package cob_gazebo_tools
+  * add new package cob_gazebo_tools
+  * Contributors: Felix Messmer, fmessmer
+
+ -- Richard Bormann <richard.bormann@ipa.fraunhofer.de>  Wed, 06 Nov 2019 23:00:00 -0000
+
+ros-noetic-cob-simulation (0.7.2-2buster) buster; urgency=high
+
+
+
+ -- Richard Bormann <richard.bormann@ipa.fraunhofer.de>  Fri, 09 Aug 2019 22:00:00 -0000
+
+ros-noetic-cob-simulation (0.7.1-2buster) buster; urgency=high
+
+
+
+ -- Richard Bormann <richard.bormann@ipa.fraunhofer.de>  Tue, 06 Aug 2019 22:00:00 -0000
+
+ros-noetic-cob-simulation (0.7.0-2buster) buster; urgency=high
+
+
+
+ -- Richard Bormann <richard.bormann@ipa.fraunhofer.de>  Tue, 06 Aug 2019 22:00:00 -0000
+
+ros-noetic-cob-simulation (0.6.10-2buster) buster; urgency=high
+
+
+
+ -- Richard Bormann <richard.bormann@ipa.fraunhofer.de>  Fri, 20 Jul 2018 22:00:00 -0000
+
+ros-noetic-cob-simulation (0.6.9-2buster) buster; urgency=high
+
+  * Merge pull request #160 <https://github.com/ipa320/cob_simulation/issues/160> from ipa320/indigo_release_candidate
+    Indigo release candidate
+  * Merge pull request #154 <https://github.com/ipa320/cob_simulation/issues/154> from ipa-fxm/update_maintainer
+    update maintainer
+  * update maintainer
+  * Merge pull request #151 <https://github.com/ipa320/cob_simulation/issues/151> from ipa-fxm/APACHE_license
+    use license apache 2.0
+  * Merge pull request #153 <https://github.com/ipa320/cob_simulation/issues/153> from ipa-rmb/ipa-rmb-changed-maintainers
+    Changed maintainers
+  * changed maintainers
+  * use license apache 2.0
+  * Contributors: Felix Messmer, Richard Bormann, ipa-fxm, ipa-uhr-mk
+
+ -- Richard Bormann <richard.bormann@ipa.fraunhofer.de>  Sat, 06 Jan 2018 23:00:00 -0000
+
+ros-noetic-cob-simulation (0.6.8-2buster) buster; urgency=high
+
+  * manually fix changelog
+  * Contributors: ipa-fxm
+
+ -- Richard Bormann <richard.bormann@ipa.fraunhofer.de>  Sun, 30 Jul 2017 22:00:00 -0000
+
+ros-noetic-cob-simulation (0.6.7-2buster) buster; urgency=high
+
+
+
+ -- Richard Bormann <richard.bormann@ipa.fraunhofer.de>  Sun, 23 Oct 2016 22:00:00 -0000
+
+ros-noetic-cob-simulation (0.6.6-2buster) buster; urgency=high
+
+
+
+ -- Richard Bormann <richard.bormann@ipa.fraunhofer.de>  Sun, 09 Oct 2016 22:00:00 -0000
+
+ros-noetic-cob-simulation (0.6.5-2buster) buster; urgency=high
+
+
+
+ -- Richard Bormann <richard.bormann@ipa.fraunhofer.de>  Thu, 31 Mar 2016 22:00:00 -0000
+
+ros-noetic-cob-simulation (0.6.4-2buster) buster; urgency=high
+
+  * migration to package format 2
+  * remove trailing whitespaces
+  * review dependencies
+  * Contributors: ipa-fxm
+
+ -- Richard Bormann <richard.bormann@ipa.fraunhofer.de>  Fri, 28 Aug 2015 22:00:00 -0000
+
+ros-noetic-cob-simulation (0.6.3-2buster) buster; urgency=high
+
+
+
+ -- Richard Bormann <richard.bormann@ipa.fraunhofer.de>  Tue, 16 Jun 2015 22:00:00 -0000
+
+ros-noetic-cob-simulation (0.6.2-2buster) buster; urgency=high
+
+
+
+ -- Richard Bormann <richard.bormann@ipa.fraunhofer.de>  Sun, 14 Dec 2014 23:00:00 -0000
+
+ros-noetic-cob-simulation (0.6.1-2buster) buster; urgency=high
+
+
+
+ -- Richard Bormann <richard.bormann@ipa.fraunhofer.de>  Sun, 21 Sep 2014 22:00:00 -0000
+
+ros-noetic-cob-simulation (0.6.0-2buster) buster; urgency=high
+
+  * Merge pull request #64 <https://github.com/ipa320/cob_simulation/issues/64> from ipa320/hydro_release_candidate
+    Hydro release candidate
+  * 0.5.2
+  * update changelog
+  * Contributors: Florian Weisshardt
+
+ -- Richard Bormann <richard.bormann@ipa.fraunhofer.de>  Wed, 17 Sep 2014 22:00:00 -0000
+
+ros-noetic-cob-simulation (0.5.2-2buster) buster; urgency=high
+
+  * New maintainer
+  * Contributors: ipa-nhg
+
+ -- Richard Bormann <richard.bormann@ipa.fraunhofer.de>  Wed, 27 Aug 2014 22:00:00 -0000
+
+ros-noetic-cob-simulation (0.5.1-2buster) buster; urgency=high
+
+  * added environment specific gazebo configuration to cob_simulation, to get gazebo deps out of cob_environments. Discussed with fmw
+  * Initial catkinization.
+  * Contributors: abubeck
+
+ -- Richard Bormann <richard.bormann@ipa.fraunhofer.de>  Thu, 20 Mar 2014 23:00:00 -0000
+
+
