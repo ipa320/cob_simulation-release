@@ -2,6 +2,9 @@
 Changelog for package cob_gazebo_objects
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.7.6 (2022-07-29)
+------------------
+
 0.7.5 (2020-12-02)
 ------------------
 * Merge pull request `#178 <https://github.com/ipa320/cob_simulation/issues/178>`_ from fmessmer/test_noetic
